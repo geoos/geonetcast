@@ -1,5 +1,7 @@
 const log = require("./lib/Logs")
-const importer = require("./lib/CMIImporter")
+const cmiImporter = require("./lib/CMIImporter")
+const goesrlevel2Importer = require("./lib/GOESRLevel2Importer");
 
-importer.init();
-log.info("GeoNetcast [0.07] importer initialized");
+cmiImporter.init();
+goesrlevel2Importer.init();
+log.info("GeoNetcast [0.11] importer initialized");
