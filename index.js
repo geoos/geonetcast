@@ -4,4 +4,4 @@ const goesrlevel2Importer = require("./lib/GOESRLevel2Importer");
 
 cmiImporter.init();
 goesrlevel2Importer.init();
-log.info("GeoNetcast [0.11] importer initialized");
+log.info("GeoNetcast [0.17] importer initialized");
